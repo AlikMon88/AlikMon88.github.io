@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    background-color: rgba(82, 12, 129, 0.411);
+    background-image: url("../images/background_stars.gif");
+    background-size: contain;
+    background-blend-mode: darken;
+    /* background-position: 100% 100%; */
+}
+
+h1 {
+    position: relative;
+    margin:inherit;
+    font-size: 3rem;
+    font-family: 'Rock Salt', cursive;
+    z-index: 3;
+}
+
+form {
+    padding-top: 50px;
+}
+
+hr {
+    border: dotted;
+    border-bottom: none;
+    color: darkslategray;
+    width: 5%;
+    opacity: 0.5;
+}
+
+#tagline {
+    position: relative;
+    margin: inherit;
+    font-size: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    z-index: 3;
+}
+
+a {
+    color: #FA58B6;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+header {
+    /* position: fixed; */
+    /* background-color: #270082; */
+    background-image: url("../images/outerspace.gif");
+    height: 30px;
+    padding-top: 6px;
+    opacity: 0.75;
+}
+
+footer {
+    position: relative;
+    background-image: url("../images/outerspace.gif");
+    padding-top: 60px;
+    opacity: 0.85;
+    z-index: 2;
+    padding-bottom: 60px;
+}
+
+
+#top-part {
+    /* background-color: #1A1A40; */
+    position: relative;
+    background-image: url("../images/outerspace.gif");
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    height: 600px;
+
+}
+
+.pro {
+    text-decoration: underline;
+    color: lime;
+}
+
+#top-part h1 {
+   padding-top: 200px;
+   padding-bottom: 20px;
+}
+
+#earth {
+    position: relative;
+    margin-top: 5%;
+    height: auto;
+    max-width: 100%;
+    bottom: 25px;
+}
+
+#design1 {
+    position: relative;
+    background: linear-gradient(to bottom right, blueviolet, transparent 60%);
+    transform: rotate(15deg);
+    opacity: 0.4;
+    padding: 40px;
+    width: 80%;
+    margin-left: -20%;
+    border-radius: 35%;
+    box-shadow: 0 0 3px blue, 0 0 5px red;
+    z-index: 1;
+   
+}
+
+#design2 {
+    position: relative;
+    background: linear-gradient(to bottom right, blueviolet, transparent 60%, rgb(185, 223, 238));
+    transform: rotate(-15deg);
+    opacity: 0.4;
+    padding: 40px;
+    width: 90%;
+    margin-left: -15%;
+    top: 70px;
+    border-radius: 35%;
+    box-shadow: 0 0 3px rgb(2, 2, 5), 0 2px 5px rgb(150, 160, 221);
+    z-index: 1;
+   
+}
+
+#design3 {
+    position: relative;
+    background-color: linear-gradient(to bottom right, blueviolet, transparent 20%, rgb(185, 223, 238));
+    transform: rotate(20deg);
+    opacity: 0.4;
+    padding: 40px;
+    width: 40%;
+    right: -20%;
+    bottom: -10px;
+    border-radius: 45%;
+    box-shadow: 0 0 3px blue, 0 0 5px red;
+    z-index: 1;
+   
+}
+
+#design4 {
+    position: relative;
+    background: linear-gradient(to bottom right, blueviolet, transparent 60%, rgb(185, 223, 238));
+    transform: rotate(50deg);
+    opacity: 0.4;
+    padding: 35px;
+    width: 35%;
+    height: auto;
+    right: -30%;
+    top: 60px;
+    margin-left: 60px;
+    border-radius: 45%;
+    box-shadow: 0 0 3px rgb(2, 2, 5), 0 2px 5px rgb(150, 160, 221);
+    z-index: 1;
+   
+}
+
+
+/*! absolute postioning inside the parent element */
+#human {
+    position: absolute; 
+    height: 35%;
+    width: auto;
+    left: 6%;
+    top: 50px;
+    opacity: 0.8;
+    /* transform: rotate(-20deg) */
+    z-index: 1;
+}
+
+/* #human {
+    position: absolute;
+    -webkit-animation:spin 40s linear infinite;
+    -moz-animation:spin 40s linear infinite;
+    animation:spin 40s linear infinite; */
+/* } */
+
+#saturn {
+    position: absolute;
+    height: 55%;
+    width: auto;
+    right: 1%;
+    bottom: 20%;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#smile {
+    position: relative;
+    bottom: 30px;
+    height: 100px;
+    width: auto;
+    
+}
+
+#smile-text {
+    color: whitesmoke;
+    position: relative;
+    text-shadow:0px 4px 4px mediumorchid;
+    /* background-color: darkslategray; */
+    background-image: url("../images/outerspace.gif");
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    margin: auto;
+    font-weight: lighter;
+    opacity: 0.7;
+    border-radius: 30%;
+    border: 2px solid whitesmoke;
+    bottom: 30px;
+    box-shadow:2px 2px 2px darkslategray;
+}
+
+#copyright {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about {
+    padding: 10px;
+    
+}
+
+#work {
+    padding: 10px;
+}
+
+#contact {
+    padding: 10px;
+    /* padding-bottom: 5px; */
+    margin-bottom: 40px;
+}
+
+.c-heading {
+    color: whitesmoke;
+    text-shadow: 0 0 3px blue, 0 0 5px red;
+    font-family: 'Quintessential', cursive;
+    /* background-color: chartreuse; */
+    /* box-shadow: 0 0 3px blue, 0 0 5px red; */
+}
+
+.span-text {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(28, 48, 48);
+    font-weight: bolder;
+    z-index: 2;
+}
+
+#skills {
+    display: inline-block;
+    padding: 10px;
+}
+
+#skills img {
+    position: relative;
+    height: 30px;
+    width: auto;
+    top: 10px; 
+    padding: 2px;   
+}
+
+#skills span {
+    position: relative;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#work img {
+    position: relative;
+    height: 50px;
+    width: auto;
+    left: 12%;
+    top:50px;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding-right: 8px;
+}
+
+#work2 {
+    margin-right: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+#work2 h3 {
+    margin-right: 25px;
+}
+
+.btn {
+    background: #d93473;
+    background-image: -webkit-linear-gradient(top, #d93473, #2b4cb8);
+    background-image: -moz-linear-gradient(top, #d93473, #2b4cb8);
+    background-image: -ms-linear-gradient(top, #d93473, #2b4cb8);
+    background-image: -o-linear-gradient(top, #d93473, #2b4cb8);
+    background-image: linear-gradient(to bottom, #d93473, #2b4cb8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border: none;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #fc3cf2;
+    background-image: -webkit-linear-gradient(top, #fc3cf2, #3498db);
+    background-image: -moz-linear-gradient(top, #fc3cf2, #3498db);
+    background-image: -ms-linear-gradient(top, #fc3cf2, #3498db);
+    background-image: -o-linear-gradient(top, #fc3cf2, #3498db);
+    background-image: linear-gradient(to bottom, #fc3cf2, #3498db);
+    text-decoration: none;
+  }
+
+
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.change-color-yellow {
+    /* background-color: #823f0081; */
+    background: linear-gradient(to bottom left, rgb(135, 235, 188), rgb(132, 130, 238)),
+    url("../images/background_stars.gif") center / contain;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    }
+
+.change-color-green {
+    /* background-color: #00738281; */
+    background: linear-gradient(to bottom left, rgb(193, 131, 221), rgb(231, 111, 63)),
+    url("../images/background_stars.gif") center / contain;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    }
+.change-color-violet {
+    /* background-color: rgba(82, 12, 129, 0.411); */
+    background: linear-gradient(to bottom left, skyblue, violet),
+    url("../images/background_stars.gif") center / contain;
+    /* background-image: linear-gradient(to right black, orange) !important;  */
+    -webkit-transition: opacity 0.3 ease-out;
+    /* -ms-transition: background-image 1000ms linear; */
+    transition: opacity 0.5s ease-out;
+    }
+
+.social {
+    padding: 12px;
+}
+
+#extra {
+    font-size: 18px;    
+}
