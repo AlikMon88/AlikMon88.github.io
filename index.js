@@ -1,4 +1,13 @@
-// alert("Welcome ! ")
+
+function myFunction() {
+  let header = document.getElementsByClassName("header-part")[0];
+  if (header.className === "header-part") {
+    header.className += " responsive";
+  } else {
+    header.className = "header-part";
+  }
+}
+
 
 var app = document.getElementById('extra');
 
@@ -47,28 +56,11 @@ function Colortoviolet() {
 
 async function f1() {
   for(let i=1; i>0;i++) {
-    // console.log("promise1-wait ... ")
-    var temp1 = await Colortogreen(); //:halts this statement till promise is resolved/rejected 
-    // console.log(temp1)
-    // console.log("promise1-resolved ...")
-    
-    // console.log("promise2-wait ... ")
+    var temp1 = await Colortogreen(); //:halts this statement till promise is resolved/rejected     
     var temp2 = await Colortoyellow(); //:halts this statement till promise is resolved/rejected 
-    // console.log(temp2)
-    // console.log("promise2-resolved ...")
-
-    // console.log("promise3-wait ... ")
     var temp3 = await Colortoviolet(); //:halts this statement till promise is resolved/rejected 
-    // console.log(temp3)
-    // console.log("promise3-resolved ...")
-
-    // console.log("Color Changed Back ...")
   }
 
-    // console.log("promise-wait ... ")
-    // var temp = await resolveAfter2Seconds(10); //:halts this statement till promise is resolved/rejected 
-    // console.log(temp)
-    // $("body").removeClass("change-color")
-    // console.log("promise resolved ...")    
 }
 f1()
+

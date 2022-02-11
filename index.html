@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ΛL|K  </title>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat+Alternates:wght@100&family=Nixie+One&family=Quintessential&family=Rajdhani:wght@300&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Fredericka+the+Great&family=Montserrat+Alternates:wght@100&family=Nixie+One&family=Quintessential&family=Rajdhani:wght@300&family=Rock+Salt&display=swap" rel="stylesheet">
     <link rel='icon' href="images/favicon.ico" />
     <link rel="stylesheet" href="css/styles.css"> 
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header-part">
+        <div class="logo-space">
+            <img src="images/favicon.ico" />
+            <span> Λ|K </span>
+        </div>
+        <nav id="menu">
             <a  href="#about">About</a>
             <a  href="#work">Work</a>
             <a  href="#contact">Contact</a>
         </nav>
-        
+        <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+            <img src="images/down-arrow.png" alt="menu">
+        </a>
     </header>
     <!-- remove.bg => transparent image website -->
     <!-- <img src="images/outerspace.gif" /> -->
@@ -66,22 +72,22 @@
     <hr>
     <div id="work">
         <h3 class="c-heading"> Work </h3>
-        <div id="work2">
-            <img src="images/natural-language-processing (1).png" style="float: left;"/>
+        <div id="work2"class="nlp">
+            <!-- <img src="images/natural-language-processing (1).png" style="float: left;"/> -->
             <span class="span-text">
                 <h3> Work-1</h3>
                 popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </span>
         </div>
-        <div id="work2">
-            <img src="images/cryptocurrencies.png" style="float: left;"/>
+        <div id="work2" class="crypto">
+            <!-- <img src="images/cryptocurrencies.png" style="float: left;"/> -->
             <span class="span-text">
                 <h3> Work-2</h3>
                 popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </span>
         </div>
-        <div id="work2">
-            <img src="images/coding.png" style="float: left;"/>
+        <div id="work2" class="web">
+            <!-- <img src="images/coding.png" style="float: left;"/> -->
             <span class="span-text">
                 <h3> Work-3 </h3>
                 popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
