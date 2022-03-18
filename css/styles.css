@@ -1,9 +1,44 @@
 html{
     max-width: 100%;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 
 }
 
+.limer {
+    color: chartreuse;
+    /* background-color: mediumslateblue; */
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+} 
+.whiter {
+    color: white;
+    /* background-color: blueviolet; */
+    /* padding: 5px;
+    border-radius: 0 5px 5px 0; */
+}
+
+.full-stack {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contact-input {
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 2px purple;
+}
 
 body {
     margin: 0;
@@ -210,6 +245,7 @@ footer {
     bottom: 30px;
     height: 100px;
     width: auto;
+    border-radius: 100%;
     
 }
 
@@ -463,6 +499,10 @@ footer {
     color: #ffffff;
 }
 
+.nlp-list {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
         #menu {
             display: none;
@@ -496,11 +536,20 @@ footer {
             margin-left: auto;
         }
 
+        .contact-input {
+            width: 300px;
+
+        }
+
+        .full-stack {
+            right: 23%;
+        }
+
         #earth {
             margin-top: 5%;
         }
         #top-part {
-            border-radius: 0 0 70px 70px;
+            border-radius: 0 0 50px 50px;
         }
 
 }
