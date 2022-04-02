@@ -45,7 +45,7 @@ body {
     position: relative;
     text-align: center;
     background-color: rgba(82, 12, 129, 0.411);
-    background-image: url("../images/background_stars.gif");
+    /* background-image: url("../images/background_stars.gif"); */
     background-size: contain;
     background-blend-mode: darken;
 }
@@ -249,6 +249,28 @@ footer {
     
 }
 
+.weird-img-top {
+    position: absolute;
+    top: 480px;
+    right: 20px;
+    width: 49%;
+    height: 26.7%;
+    opacity: 0.20;
+    border-radius: 20px;
+    /* height: 100px; */
+}
+
+.weird-img-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 49%;
+    height: 22.5%;
+    opacity: 0.20;
+    border-radius: 20px;
+    /* height: 100px; */
+}
+
 #smile-text {
     color: whitesmoke;
     position: relative;
@@ -432,29 +454,24 @@ footer {
 }
 
 .change-color-yellow {
-    /* background-color: #823f0081; */
-    background: linear-gradient(to bottom left, rgb(135, 235, 188), rgb(132, 130, 238)),
-    url("../images/background_stars.gif") center / contain;
+    background: linear-gradient(to bottom left, rgb(135, 235, 188), rgb(132, 130, 238));
+    /* url("../images/weird.gif") left top; */
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
     }
 
 .change-color-green {
-    /* background-color: #00738281; */
-    background: linear-gradient(to bottom left, rgb(193, 131, 221), rgb(231, 111, 63)),
-    url("../images/background_stars.gif") center / contain;
+    background: linear-gradient(to bottom left, rgb(193, 131, 221), rgb(231, 111, 63));
+    /* url("../images/weird.gif") center / contain; */
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
     }
 .change-color-violet {
-    /* background-color: rgba(82, 12, 129, 0.411); */
-    background: linear-gradient(to bottom left, skyblue, violet),
-    url("../images/background_stars.gif") center / contain;
-    /* background-image: linear-gradient(to right black, orange) !important;  */
+    background: linear-gradient(to bottom left, skyblue, violet);
+    /* url("../images/weird.gif") left / contain; */
     -webkit-transition: opacity 0.3 ease-out;
-    /* -ms-transition: background-image 1000ms linear; */
     transition: opacity 0.5s ease-out;
     }
 
@@ -550,6 +567,23 @@ footer {
         }
         #top-part {
             border-radius: 0 0 50px 50px;
+        }
+
+        .weird-img-top {
+            height: 28.5%;
+            width: 100%;
+            right: 0;
+            opacity: 0.25;
+        }
+
+        .weird-img-bottom {
+            height:15.7%;
+            right: 0;
+            opacity: 0.25;
+        }
+
+        #design1, #design2, #design3, #design4 {
+            display: none;
         }
 
 }
