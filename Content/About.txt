@@ -1,0 +1,5 @@
+Hi, I'm Alik, a recent physics graduate from Delhi University with knowledge and research interests in computer vision, generative modeling, probabilistic programming, and scientific machine learning.
+
+I am extremely interested in applying novel machine learning techniques to various domains in the physical sciences, especially astronomy and high-energy physics.
+
+Currently, I am focused on discovering the laws (in the form of partial differential equations) that govern complex physical systems, using various deterministic and probabilistic techniques.

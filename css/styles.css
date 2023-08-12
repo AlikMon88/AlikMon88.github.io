@@ -82,12 +82,19 @@ a {
     color: #FA58B6;
     text-decoration: none;
     padding: 5px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-weight: bolder;
 }
 
 a:hover {
     color: lightpink;
+}
+
+.draft {
+    color: gray;
+}
+.draft:hover {
+    color: aliceblue;
 }
 
 .header-part {
@@ -242,7 +249,7 @@ footer {
 
 #smile {
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
     height: 100px;
     width: auto;
     border-radius: 100%;
@@ -273,19 +280,20 @@ footer {
 
 #smile-text {
     color: whitesmoke;
+    font-family: 'Fredericka the Great', cursive;
     position: relative;
     text-shadow:0px 4px 4px mediumorchid;
     /* background-color: darkslategray; */
     background-image: url("../images/outerspace.gif");
-    width: 100px;
+    width: 300px;
     height: auto;
-    padding: 5px;
+    padding: 30px;
     margin: auto;
     font-weight: lighter;
     opacity: 0.7;
     border-radius: 30%;
     border: 2px solid whitesmoke;
-    bottom: 30px;
+    bottom: 50px;
     box-shadow:2px 2px 2px darkslategray;
 }
 
@@ -295,16 +303,16 @@ footer {
 }
 
 #about {
-    padding: 10px;
+    padding: 20px;
     
 }
 
 #work {
-    padding: 10px;
+    padding: 20px;
 }
 
 #contact {
-    padding: 10px;
+    padding: 20px;
     /* padding-bottom: 5px; */
     margin-bottom: 40px;
 }
@@ -312,7 +320,7 @@ footer {
 .c-heading {
     color: whitesmoke;
     text-shadow: 0 0 3px blue, 0 0 5px red;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-weight: bolder;
 }
 
@@ -356,43 +364,14 @@ footer {
 } */
 
 
-.nlp::before {
-    content: "";
-    position: absolute;
-    background-image: url("../images/natural-language-processing (1).png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    right: -30px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
+.res-img {
+    position: relative;
+    border: 2px solid chartreuse;
+    box-shadow:2px 2px 18px darkslategray;
+    width: 85%;
+    height: 85%;
+    opacity: 0.9;
 }
-
-
-.crypto::before {
-    content: "";
-    position: absolute;
-    background-image: url("../images/cryptocurrencies.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    right: -30px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;   
-}
-
-.web::before {
-    content: "";
-    position: absolute;
-    background-image: url("../images/web-programming.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    right: -30px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;   
-}
-
 
 #work2 {
     position: relative;
@@ -516,8 +495,14 @@ footer {
     color: #ffffff;
 }
 
-.nlp-list {
+.prl-list {
     text-decoration: none;
+}
+
+#menu {
+    padding-top: 4px;
+    padding-left: 40px;
+    padding-bottom: 4px;
 }
 
 @media screen and (max-width: 600px) {
@@ -534,17 +519,27 @@ footer {
             display: block;
         }
 
-        .nlp::before {
+        .prl::before {
             opacity: 0.1;
             right: 3px;
         }
 
-        .crypto::before {
+        .drdo::before {
             opacity: 0.1;
             right: 3px;
         }
 
-        .web::before {
+        .grav::before {
+            opacity: 0.1;
+            right: 3px;
+        }
+
+        .btc::before {
+            opacity: 0.1;
+            right: 3px;
+        }
+
+        .cond::before {
             opacity: 0.1;
             right: 3px;
         }
